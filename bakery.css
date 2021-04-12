@@ -1,0 +1,228 @@
+
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    height: 120px;
+    width: 100%;
+    top: 0px;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    display: flex;
+    padding: 2rem;
+}
+
+#navbar ul li a{
+    display: block;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    padding: 4px 24px;
+    font-family: 'Bitter', serif;
+}
+#navbar #log{
+    display: flex;
+    margin-right: 0rem;
+}
+
+#navbar ul li a:hover{
+    background-color: wheat;
+    color: rgb(19, 27, 1);
+}
+
+.h-primary{
+    text-decoration: none;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    padding: 24px 30px;
+}
+
+#home p{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: lemonchiffon;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#home h1{
+    font-size: 2.5rem;
+    color: black;
+    font-style: 'Bitter', serif;
+}
+
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#services .box1{ 
+    /*border: 2px solid brown;*/
+    display: flex;
+    flex-direction: column;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    margin-bottom: 20px;
+    border: 4px solid navy;
+
+}
+
+#services .box1 img{
+    width: 425px;
+    height: 350px;
+    display: block;
+}
+
+#services .box2{ 
+    /*border: 2px solid brown;*/
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    border: 4px solid navy;
+    margin-bottom: 20px;
+}
+
+#services .box2 img{
+    width: 425px;
+    height: 350px;
+}
+
+#Services h1{
+    text-align: center;
+    font-style: 'Bitter', serif;
+    font-size: 2.1rem;
+}
+
+#services .box3 img{
+    width: 425px;
+    height: 350px;
+}
+
+#services .box3{ 
+    /*border: 2px solid brown;*/
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    border: 4px navy solid;
+    margin-bottom: 20px;
+}
+#services h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#services p{
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+#AboutUs #clients #c1 img{
+    width: 280px;
+    height: 250px;
+    padding: 24px 24px;
+}
+
+#AboutUs #clients #c2 img{
+    width: 250px;
+    height: 250px;
+    padding: 24px 24px;
+}
+
+#AboutUs #clients #c3 img{
+    width: 280px;
+    height: 300px;
+    padding: 24px 24px;
+}
+
+#AboutUs #clients #c4 img{
+    width: 250px;
+    height: 250px;
+    padding: 24px 24px;
+}
+
+#AboutUs #clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#AboutUs h1{
+    text-align: center;
+    font-style: 'Bitter', serif;
+    font-size: 2.1rem;
+}
+
+#AboutUs p{
+    font-size: 1.6rem;
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: space-evenly;
+    background-image: url(https://pixabay.com/photos/chocolates-chocolate-nibble-563388/);
+    background-color: lemonchiffon;
+}
+
+#order h1{
+    text-align: center;
+    font-size: 2.1rem;
+    font-style: 'Bitter', serif;
+}
+
+#order #form {
+    margin-left: 40rem;
+    margin-right: 40rem;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px solid navy;
+    display: flex;
+    padding: 10px 5px;
+    border-radius: 25px;
+    justify-content: center;
+    
+} 
+
+
+
+#order #line{
+    font-size: 1.8rem;
+    font-style: normal;
+    text-align: center;
+}
